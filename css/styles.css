@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+nav{
+    position: position-fixed;
+}
+
+/*li a:hover:not(.active) { 
+    font-size: 20px;
+    color: black;
+}*/
+  
+.active {
+    text-decoration: underline; 
+}
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+
+
+
+
